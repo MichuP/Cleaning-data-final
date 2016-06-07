@@ -1,4 +1,4 @@
-## Transformations done by final.R file
+## Transformations done by run_analysis.R file
 
 Here is a step by step guide to the transformations that were performed to get the two final data frames:
 
@@ -16,4 +16,4 @@ Here is a step by step guide to the transformations that were performed to get t
 
 
 
-**Note that if you wish to test the functionality of the code, you simply need to unpack the files with data, put the final.R file to the location of the unpacked folder (getdata-projectfiles-UCI HAR Dataset) and change the rootWorkspace variable in the script to point to the directory where the unpacked folder is placed.**
+**Note that if you wish to test the functionality of the code, you simply need to unpack the files with data, put the run_analysis.R file to the location of the unpacked folder (getdata-projectfiles-UCI HAR Dataset) and change the rootWorkspace variable in the script to point to the directory where the unpacked folder is placed.**
