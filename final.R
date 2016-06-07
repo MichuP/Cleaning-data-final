@@ -48,6 +48,7 @@ final1 <- select(merged, matches('[Mm][Ee][Aa][Nn]|[Ss][Tt][Dd]|activityLabel|su
 final2 <- group_by(final1, subject, activityLabel) %>% summarise_each(funs(mean))
 
 
+write.table(final2, paste(rootWorkspace, "final.txt"), row.name=F)
 
 
 
