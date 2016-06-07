@@ -1,5 +1,9 @@
 ## Transformations done by run_analysis.R file
 
+**All the variables come from the following project: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones**
+
+If you want information on specific variables and project general info - refer features_info.txt and README.txt files
+
 Here is a step by step guide to the transformations that were performed to get the two final data frames:
 
 1. A character vector is defined with descriptive activity labels. The order of items in the vector is aligned with the activity number (1 - "WALKING", 2 - "WALKING_UPSTAIRS" etc.)
